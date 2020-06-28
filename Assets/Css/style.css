@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.cont{
+  background: url("../Images/landing.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 5px solid black;
+}
+.navcontent{
+	background-color: #008ae6;
+}
+.shadow{
+	margin: 150px 20px;
+	text-align: center;
+	border: 5px solid black;
+	background: lightgrey;
+	opacity: 0.6;
+	color: black;
+	font-weight: bold;
+}
+.island{
+	margin: 20px 0px;
+}
+#isle{
+	text-align: center;
+}
+.min{
+	background-color: #0000ff;
+	margin: 10px 20px;	
+	font-size: 15px;
+}
+.color{
+	color: solid black
+}
+
+#slid{
+	height: 350px;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.carousel-caption{
+	background-color: gray;
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 0.7;
+	font-weight: bold;
+}
+.tainer{
+	background-color: #80dfff;
+}
+/*----luzon page--*/
+/*.luzonbg{
+	border: 1px solid black;
+}*/
+.imgholder {
+	margin: 10px 20px ;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+.rob{
+	border: 2px solid black;
+	background-image: url(../Images/background.jpeg);
+}
+.picimg{
+	height: 200px;
+	object-fit: cover;
+	object-position: 50% 50%;
+	margin: 10px 0px;
+	width: 100%;
+}
+.bgm{
+	background-color: #80dfff;
+	margin-top: 10px;
+	text-align: center;
+}
+.footer{
+	background-color:  #008ae6;
+   height: 50px;
+   padding-top: 15px;
+   text-align: center;
+}
+.contentnav{
+	margin-top: 10px;
+}
+.textcard{
+	margin-bottom: 20px;
+}
+.Explore{
+	margin-bottom: 15px;
+}
+/*---------------*/
+.gal{
+	object-fit: cover;
+	object-position: 50% 50%;
+	width: 200px;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 15px 18px;
+	border: 2px solid gray;
+	 box-shadow:15px 15px 5px #1a1a1a;
+}
+.galbg1{
+	background-color: #e6e6ff;
+}
+.galbg{
+	background-color: #e6e6ff;
+	text-align: center;
+}
+.log1{
+	margin: 50px;
+}
+.log{
+	text-align: center;
+	margin-bottom: 200px;
+}
+	/*----------------*/
+.myform{
+	border: 5px solid black;
+	margin: 50px 100px;
+	text-align: center;
+	background-color: gray;
+}
+.up{
+	text-align: left;
+	margin-top: 15px;
+}
+.Ufirst{
+	margin-top: 20px;
+}
+.concon{
+	background-image: url("../Images/tani.jpg");
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+      .homecards{
+      	height: 290px;
+      	
+      }
+      .homecardimg{
+      	height: 290px !important;
+      	object-fit: cover !important;
+	    object-position: 50% 50% !important;
+      }
+}
